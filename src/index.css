@@ -4,13 +4,26 @@
 
 :root {
   font-family: var(--font-IBM);
-  background: RGB(252 252 252);
+  color: var(--color-hitam);
 }
 
 @theme {
   --font-IBM: "IBM Plex Sans", serif;
   --color-kuning: RGB(250 222 0);
   --color-primary: #007c89;
+  --color-hitam: #080808;
+}
+
+@layer base {
+  h1 {
+    @apply font-extrabold text-hitam;
+    font-size: clamp(30px, 4vw + 1rem, 86px);
+  }
+
+  h2 {
+    @apply font-bold text-hitam;
+    font-size: clamp(25px, 3.5vw + 0.75rem, 76px);
+  }
 }
 
 @layer components {

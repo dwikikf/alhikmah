@@ -1,9 +1,15 @@
-import bgHero from "../assets/images/bgHeroNoClouds.jpg";
+// import bgLeftCloud from "../assets/images/bgLeftCloud.png";
+// import bgRightCloud from "../assets/images/bgRightCloud.png";
+
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-fixed bg-center bg-cover">
-      <div className="gradient-hero min-h-[calc(100vh/5)]"></div>
-      <img src={bgHero} alt="Background Image" />
+    <div className="min-h-[calc(100vh+20px)]">
+      {/* <img src={bgLeftCloud} alt="Left CLoud" /> */}
+      {/* <img src={bgRightCloud} alt="Right Cloud" /> */}
+      <div className="w-full flex items-center flex-col relative top-10">
+        <h1>SD IT Al-Hikmah</h1>
+        <h2>Yayasan Al-Istiqomah</h2>
+      </div>
     </div>
   );
 };
