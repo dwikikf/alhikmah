@@ -4,53 +4,57 @@
 
 :root {
   font-family: var(--font-IBM);
-  color: var(--color-hitam);
+  color: var(--color-hitam-500);
 }
 
 @theme {
   --font-IBM: "IBM Plex Sans", serif;
   --color-kuning: RGB(250 222 0);
   --color-primary: #007c89;
-  --color-hitam: #080808;
+  --color-hitam-900: #080808;
+  --color-hitam-500: #030303;
+  --color-hitam-300: #272c2c;
 }
 
 @layer base {
   h1 {
-    @apply font-extrabold text-hitam;
+    @apply font-extrabold;
     font-size: clamp(30px, 4vw + 1rem, 86px);
   }
 
   h2 {
-    @apply font-bold text-hitam;
+    @apply font-bold;
     font-size: clamp(25px, 3.5vw + 0.75rem, 76px);
+  }
+
+  h3 {
+    @apply font-bold;
+    font-size: clamp(20px, 2.5vw + 0.55rem, 56px);
   }
 }
 
 @layer components {
-  .gradient-hero {
-    background: hsla(0, 0%, 100%, 1);
+  .gradient-about {
+    background: hsla(172, 99%, 36%, 1);
 
     background: linear-gradient(
       270deg,
-      hsla(0, 0%, 100%, 1) 0%,
-      hsla(216, 100%, 92%, 1) 50%,
-      hsla(217, 95%, 85%, 1) 100%
+      hsla(172, 99%, 36%, 1) 0%,
+      hsla(186, 87%, 31%, 1) 74%
     );
 
     background: -moz-linear-gradient(
       270deg,
-      hsla(0, 0%, 100%, 1) 0%,
-      hsla(216, 100%, 92%, 1) 50%,
-      hsla(217, 95%, 85%, 1) 100%
+      hsla(172, 99%, 36%, 1) 0%,
+      hsla(186, 87%, 31%, 1) 74%
     );
 
     background: -webkit-linear-gradient(
       270deg,
-      hsla(0, 0%, 100%, 1) 0%,
-      hsla(216, 100%, 92%, 1) 50%,
-      hsla(217, 95%, 85%, 1) 100%
+      hsla(172, 99%, 36%, 1) 0%,
+      hsla(186, 87%, 31%, 1) 74%
     );
 
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#D7E7FF", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#01B59C", endColorstr="#0A8693", GradientType=1 );
   }
 }
