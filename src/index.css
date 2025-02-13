@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  font-family: var(--font-IBM);
+  background: RGB(252 252 252);
+}
+
+@theme {
+  --font-IBM: "IBM Plex Sans", serif;
+  --color-kuning: RGB(250 222 0);
+  --color-primary: #007c89;
+}
+
+@layer components {
+  .gradient-hero {
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(
+      270deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(216, 100%, 92%, 1) 50%,
+      hsla(217, 95%, 85%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      270deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(216, 100%, 92%, 1) 50%,
+      hsla(217, 95%, 85%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      270deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(216, 100%, 92%, 1) 50%,
+      hsla(217, 95%, 85%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#D7E7FF", GradientType=1 );
+  }
+}
