@@ -25,7 +25,7 @@ const MENUS = [
 
 const Navbar = () => {
   return (
-    <div className="w-full px-10 flex justify-between items-center sticky top-0 z-100">
+    <div className="hidden w-full px-10 lg:flex justify-between items-center sticky top-0 z-100 ">
       <h1 className="text-2xl text-primary cursor-pointer font-bold hover:scale-125 transition delay-150 duration-700">
         My Logo
       </h1>

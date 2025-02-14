@@ -8,11 +8,9 @@ import cloud4 from "../assets/images/cloud4.svg";
 const Hero = () => {
   return (
     <div
-      className="min-h-[calc(100vh+100px)]"
+      className="relative min-h-[90vh] bg-[right_29%_top_10px]"
       style={{
         backgroundImage: `url(${bgHero})`,
-        width: "calc(98vw + 14.3px)",
-        backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -20,24 +18,24 @@ const Hero = () => {
       <img
         src={cloud1}
         alt="Cloud"
-        className="absolute left-25 max-w-[20dvw]"
+        className="absolute left-7 top-[5vh] w-[25dvw]"
       />
       <img
         src={cloud2}
         alt="Cloud"
-        className="absolute right-5 top-7 max-w-[20dvw]"
+        className="absolute right-7 top-[16vh] w-[20dvw]"
       />
       <img
         src={cloud3}
         alt="Cloud"
-        className="absolute left-5 top-100 max-w-[20dvw]"
+        className="absolute left-20 top-[28vh] max-w-[25dvw]"
       />
       <img
         src={cloud4}
         alt="Cloud"
-        className="absolute right-[30%] top-60 max-w-[17dvw]"
+        className="absolute right-20 top-[35vh] w-[15dvw]"
       />
-      <div className="w-full flex items-center flex-col relative top-10">
+      <div className="w-full flex items-center flex-col relative top-[10vh]">
         <h1>SD IT Al-Hikmah</h1>
         <h2>Yayasan Al-Istiqomah</h2>
       </div>
