@@ -31,6 +31,15 @@
     @apply font-bold;
     font-size: clamp(20px, 2.5vw + 0.55rem, 56px);
   }
+
+  h4 {
+    @apply font-bold;
+    font-size: clamp(18px, 2.2vw + 0.45rem, 46px);
+  }
+
+  p {
+    @apply text-justify indent-3;
+  }
 }
 
 @layer components {
@@ -56,5 +65,27 @@
     );
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#01B59C", endColorstr="#0A8693", GradientType=1 );
+  }
+  .gradient-achievement {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(
+      360deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(105, 182, 190, 1) 46%,
+      rgba(10, 134, 147, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      360deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(105, 182, 190, 1) 46%,
+      rgba(10, 134, 147, 1) 100%
+    );
+    background: linear-gradient(
+      360deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(105, 182, 190, 1) 46%,
+      rgba(10, 134, 147, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0a8693",GradientType=1);
   }
 }
