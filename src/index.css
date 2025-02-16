@@ -66,6 +66,27 @@
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#01B59C", endColorstr="#0A8693", GradientType=1 );
   }
+
+  .gradient-hero {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(1, 182, 158, 1) 90%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(1, 182, 158, 1) 90%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(1, 182, 158, 1) 90%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#01b69e",GradientType=1);
+  }
+
   .gradient-achievement {
     background: rgb(255, 255, 255);
     background: -moz-linear-gradient(

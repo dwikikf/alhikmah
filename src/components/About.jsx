@@ -4,8 +4,8 @@ import bgLang from "../assets/images/bookGlobe.png";
 
 const About = () => {
   return (
-    <div className="gradient-about flex flex-col items-center gap-10 pt-20 pb-10">
-      <div className="px-7">
+    <div className="gradient-about flex flex-col items-center gap-10 pb-10">
+      <div className="px-7 ">
         <img src={bgSains} alt="Gambar Sains" />
         <div className="flex flex-col gap-3">
           <h3 className="text-white px-3">Apa Keunggulannya ?</h3>
