@@ -9,13 +9,13 @@ const MENUS = [
   },
   {
     id: 2,
-    nama: "Keunggulan",
-    link: "keunggulan",
+    nama: "Tentang",
+    link: "tentang",
   },
   {
     id: 3,
-    nama: "Berita",
-    link: "berita",
+    nama: "Keunggulan",
+    link: "keunggulan",
   },
   {
     id: 4,

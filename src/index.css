@@ -37,6 +37,10 @@
     font-size: clamp(18px, 2.2vw + 0.45rem, 46px);
   }
 
+  button {
+    @apply cursor-pointer;
+  }
+
   p {
     @apply text-justify indent-3;
   }
@@ -47,7 +51,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: hsla(134, 1%, 85%, 0.7);
     z-index: 999;
   }
 }

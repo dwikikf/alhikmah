@@ -11,9 +11,10 @@ const Hero = () => {
       <div className="w-full flex items-center flex-col relative top-20 landscape:top-0 z-10">
         <h1>SD IT Al-Hikmah</h1>
         <h2>Yayasan Al-Istiqomah</h2>
-        <p className="text-center py-5 px-10">
+        <p className="text-center text-sm py-5 px-10">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
           incidunt recusandae ipsa magnam totam consequatur est asperiores sed
+          unde eum. recusandae ipsa magnam totam consequatur est asperiores sed
           unde eum.
         </p>
       </div>

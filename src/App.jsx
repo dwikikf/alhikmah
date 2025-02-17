@@ -1,8 +1,8 @@
 import { useState } from "react";
 import About from "./components/About";
-import Achievement from "./components/Achievement";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Primacy from "./components/Primacy";
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -18,7 +18,7 @@ function App() {
       />
       <Hero />
       <About />
-      <Achievement />
+      <Primacy />
     </div>
   );
 }
